@@ -1,19 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './components/about/about.component';
-import { ExperienceComponent } from './components/experience/experience.component';
-import { EducationComponent } from './components/education/education.component';
 import { KnowledgeComponent } from './components/knowledge/knowledge.component';
 import { ProyectsComponent } from './components/proyects/proyects.component';
-import { AwardsComponent } from './components/awards/awards.component';
+import { HomeComponent } from './components/home/home.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [
-  { path: 'home', component: AboutComponent },
-  { path: 'experience', component: ExperienceComponent },
-  { path: 'education', component: EducationComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'knowledge', component: KnowledgeComponent },
   { path: 'projects', component: ProyectsComponent },
-  { path: 'awards', component: AwardsComponent },
+  { path: 'contact', component: ContactComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 

@@ -1,0 +1,24 @@
+.contact-icons i {
+  font-size: 1.5rem;
+}
+
+.link-proyectos {
+  text-transform: none;
+}
+
+.link-proyectos-box a {
+  width: 250px;
+  font-size: 1rem;
+}
+
+.link-proyectos-box a:visited {
+  color: white;
+}
+
+.link-proyectos-box a:hover {
+  color: rgb(0, 255, 136);
+}
+
+.form-control {
+  outline: none !important;
+}

@@ -1,11 +1,3 @@
-.link-proyectos {
-  text-transform: none;
-}
-
-.link-proyectos:hover {
-  color: rgb(0, 255, 136);
-}
-
 .icons-tecno {
   display: flex;
   justify-content: space-around;

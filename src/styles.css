@@ -40,13 +40,13 @@ h6 {
   color: var(--color-tertiary);
 }
 
-i {
+/* i {
   color: var(--color-tertiary);
 }
 
 i:hover {
   color: var(--color-secondary);
-}
+} */
 
 h1 {
   font-size: 3rem;
@@ -63,6 +63,10 @@ h3 {
 
 p {
   color: var(--color-five);
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 p.lead {
@@ -82,7 +86,7 @@ p.lead {
   display: inline-block;
   height: 2rem;
   width: 2rem;
-  color: var(--color-primary);
+  color: var(--color-tertiary);
   text-align: center;
   font-size: 1rem;
   line-height: 3.5rem;
@@ -309,7 +313,7 @@ a:active {
   }
 
   .subtitle {
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-top: 1rem;
   }

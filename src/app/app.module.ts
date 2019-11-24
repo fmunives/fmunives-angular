@@ -10,6 +10,9 @@ import { EducationComponent } from './components/education/education.component';
 import { KnowledgeComponent } from './components/knowledge/knowledge.component';
 import { ProyectsComponent } from './components/proyects/proyects.component';
 import { AwardsComponent } from './components/awards/awards.component';
+import { BoxComponent } from './components/shared/box/box.component';
+import { HomeComponent } from './components/home/home.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { AwardsComponent } from './components/awards/awards.component';
     EducationComponent,
     KnowledgeComponent,
     ProyectsComponent,
-    AwardsComponent
+    AwardsComponent,
+    BoxComponent,
+    HomeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
